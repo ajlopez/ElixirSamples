@@ -16,10 +16,12 @@ These installations are in the mix user folder, not in the current one.
 Created running from this phoenix folder with:
 
 ```
-mix phoenix.new hello
+mix phoenix.new hello --no-brunch
 cd hello
 mix phoenix.server
 ```
+
+The application don't use compiled assets, so I added the `--no-brunch` option.
 
 Alternately, you can run the server with the interactive interpreter:
 
